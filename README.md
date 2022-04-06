@@ -1,8 +1,4 @@
 # Puissance4
------------------
-##### *Copyright (©) Mariam Ghukasyan* 
-##### *Dernier modification : 4 mars 2020*
------------------
 
 ###### *Jeu de Puissance 4 avec Plugin Jquery*
 
