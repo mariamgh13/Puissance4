@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+    background-color: #0a1325;
+    color: #53b6ae;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#logo{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 750px;
+}
+#girlblue{
+    width: 500px;
+    float: left;
+    margin-top: -930px;
+}
+#girlgreen{
+    width: 500px;
+    margin-left: 1025px;
+    margin-top: -920px;
+    float: right;
+}
+#jetonblue{
+    width: 700px;
+    height: 540px;
+    margin-bottom: -530px;
+    float: left;
+}
+#jetongreen{
+    width: 700px;
+    height: 540px;
+    margin-bottom: -530px;
+    margin-left: 749px;
+    float: right;
+}
+
+#jeu{
+    display: inline-block;
+    background-color: #2E3D59;
+    border-radius: 15px;
+    margin: 25px;
+}
+#Resultat{
+    margin-top: 3%;
+}
+#relancer{
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: #53b6ae;
+    border: 1px none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#choix{
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 25px;
+    background-color: #53b6ae;
+    border: 1px none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#relancer:hover{
+    background-color: #306e69;
+}
+#choix:hover {
+    background-color: #306e69;
+}
+
+.col {
+    display: inline-block;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: #0a1325;
+    border-radius: 50%;
+}
+
+.col.empty{
+    cursor: pointer;
+}
+
+.col.blue{
+    background-color: blue;
+}
+
+.col.green{
+    background-color: green;
+}
+
+.col.hoverblue{
+    background-color: darkblue;
+}
+
+.col.hovergreen{
+    background-color: darkgreen;
+}
